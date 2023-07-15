@@ -42,7 +42,7 @@ export default function Home() {
 
   return (
     <main>
-      <div className="relative w-[90%] mx-auto my-8 rounded-xl overflow-hidden">
+      <div className="relative w-[90%] max-w-6xl mx-auto my-8 rounded-xl overflow-hidden">
         <div className="absolute top-4 right-4 z-10">
           <VideoPlayerControls
             progress={videoProgress}
